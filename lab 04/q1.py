@@ -14,7 +14,9 @@ name = "sajid ali khan"
 # else:
 #     print("Ali not in name")
 
-if "sajid" not in name:
-    print("not present")
-else:
-    print("present")
+# if "sajid" not in name:
+#     print("not present")
+# else:
+#     print("present")
+
+# print(name[:5])
