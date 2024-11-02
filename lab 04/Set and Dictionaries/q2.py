@@ -17,7 +17,11 @@ def election(votes):
             records[vote] = records[vote]+1
         else:
             records[vote] = 1
-    print(records)
+    maxVotes = max(records.values())
+    
+    result = [name for name,vote in records.items() if vote == maxVotes]
+    winner = min(result)
+    print("Winner is : ",winner)
 
 input = ['john','johnny','jackie','johnny', 'john','jackie','jamie','jamie',
 'john','johnny','jamie','johnny', 'john']
